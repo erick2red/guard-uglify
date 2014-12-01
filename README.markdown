@@ -3,14 +3,19 @@ Compresses your javascript files, using uglifyjs and the uglifier gem when you s
 
 ## Use
 if you haven't already:
-    `gem install uglifier`
+
+    gem install uglifier
+
 then
-    `git clone https://github.com/erick2red/guard-uglify.git` 
-    `cd guard-uglify`
-    `rake install`
+
+    git clone https://github.com/erick2red/guard-uglify.git
+    cd guard-uglify
+    rake install
+
 in your project's directory root
-    `guard init`
-    `guard init uglify`  
+
+    guard init
+    guard init uglify
 
 which will add this to your Guardfile  
 
@@ -37,6 +42,7 @@ Note that:
 (The MIT License)
 
 Copyright (c) 2014 Erick Pérez Castellanos
+
 Copyright (c) 2011 Aaron Cruz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
